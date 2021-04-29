@@ -1,7 +1,7 @@
 # Desafio de programação 1
 A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador, de vários níveis.
 
-Este desafio deve ser feito por você em sua casa. Gaste o tempo que você quiser, porém normalmente você não deve precisar de mais do que algumas horas.
+Este desafio deve ser feito por você em sua casa. Com tempo estipulado na sua entrevista, porém normalmente você não deve precisar de mais do que algumas horas.
 
 ## Instruções de entrega do desafio
 1. Primeiro, faça um fork deste projeto para sua conta no Github (crie uma se você não possuir).
