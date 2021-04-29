@@ -20,10 +20,12 @@ Sua aplicação web DEVE:
 1. Aceitar (via um formulário) o upload de arquivos text, com dados separados por TAB testar o aplicativo usando o arquivo fornecido. A primeira linha do arquivo tem o nome das colunas. Você pode assumir que as colunas estarão sempre nesta ordem, e que sempre haverá uma linha de cabeçalho. Um arquivo de exemplo chamado 'dados.txt' está incluído neste repositório;
 2. Interpretar ("parsear") o arquivo recebido, normalizar os dados, e salvar corretamente a informação em um banco de dados relacional;
 3. Exibir todos os registros importados, bem como a receita bruta total dos registros contidos no arquivo enviado após o upload + parser;
-4. Se sua vaga é para PHP, deve ser escrita obrigatoriamente em: PHP 7.4 ou superior e MySQL;
-5. Ser simples de configurar e rodar a partir das instruções fornecidas (Usar o docker é um ponto positivo);
+4. Se sua vaga é para PHP, deve ser escrita obrigatoriamente em: PHP 7.4 ou superior(sem frameworks) e MySQL;
+5. Ser simples de configurar e rodar a partir das instruções fornecidas;
 7. Funcionando em ambiente Linux ou Windows. Ela deve utilizar apenas linguagens e bibliotecas livres ou gratuitas;
 9. Ter uma boa aparecia e ser fácil de usar;
+
+Pontos positvos para o uso: Docker, Bootstrap, MVC, Dotenv e Testes.
 
 ## Avaliação
 Seu projeto será avaliado de acordo com os seguintes critérios:
