@@ -1,5 +1,5 @@
-# Desafio de programação 1
-A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador, de vários níveis.
+# Desafio de Desenvolvedor Web PHP
+A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de Desenvolvedor Web, de vários níveis.
 
 Este desafio deve ser feito por você em sua casa. Com tempo estipulado na sua entrevista, porém normalmente você não deve precisar de mais do que algumas horas.
 
@@ -25,7 +25,7 @@ Sua aplicação web DEVE:
 7. Funcionando em ambiente Linux ou Windows. Ela deve utilizar apenas linguagens e bibliotecas livres ou gratuitas;
 9. Ter uma boa aparecia e ser fácil de usar;
 
-Pontos positvos para o uso: Docker, Bootstrap, MVC, Dotenv e Testes.
+Pontos positvos para o uso das tecnologias: Docker, Bootstrap, MVC e Dotenv.
 
 ## Avaliação
 Seu projeto será avaliado de acordo com os seguintes critérios:
