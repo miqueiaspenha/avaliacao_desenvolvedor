@@ -1,4 +1,4 @@
-# Desafio de Desenvolvedor Web PHP
+# Desafio Desenvolvedor Web PHP
 A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de Desenvolvedor Web, de vários níveis.
 
 Este desafio deve ser feito por você em sua casa. Com tempo estipulado na sua entrevista, porém normalmente você não deve precisar de mais do que algumas horas.
