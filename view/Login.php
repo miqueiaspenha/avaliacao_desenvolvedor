@@ -20,19 +20,57 @@
   </head>
 
   <body class="text-center">
-    <form class="form-signin">
-      <!-- <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
-      <h1 class="h3 mb-3 font-weight-normal">Insira seus dados </h1>
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+  <div class="global">
+			<!-- Aqui temos o formulário
+				*Action é vazia por que vamos fazer a validação e o redirecionamento nesta mesma página.
+			-->
+			<form name="" method="post" action="">
+      <h1 class="h3 mb-3 font-weight-normal">Preencha os dados corretamente:</h1>
+      <label for="inputEmail" class="sr-only">Usuário</label>
+      <input type="text" name="user" id="inputEmail" class="form-control" placeholder="Usuário" required autofocus>
       <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <input type="password" name="pass" id="inputPassword" class="form-control" placeholder="Password" required>
       <div class="checkbox mb-3">
       </br>
       </div>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Acessar</button>
-</br>
-      <p class="mt-5 mb-3 text-muted">SAD &copy; 2021</p>
-    </form>
+
+			<input class="btn btn-lg btn-primary btn-block" type="submit" name="submit" value="Logar!" />
+			</form>
+			<?php
+				/* Declaração de Variáveis */
+				$user = @$_REQUEST['user'];
+				$pass = @$_REQUEST['pass'];
+				$submit = @$_REQUEST['submit'];
+				
+				/* Declaração das variáveis que possuem os usuarios e as senhas */
+				$user1 = 'sad';
+				$pass1 = 'sad';			
+				
+				
+				/* Testa se o botão submit foi ativado */
+				if($submit){
+					
+					/* Se o campo usuário ou senha estiverem vazios geramos um alerta */
+					if($user == "" || $pass == ""){
+						echo "<script:alert('Por favor, preencha todos os campos!');</script>";
+					}
+					/* Caso o campo usuario e senha não 
+						*estejam vazios vamos testar se o usuário e a senha batem 
+					*iniciamos uma sessão e redirecionamos o usuário para o painel */
+					else{
+						if(($user == $user1 && $pass == $pass1) || ($user == $user2 && $pass == $pass2)){
+							session_start();
+							$_SESSION['usuario']=$user;
+							$_SESSION['senha']=$pass;
+							header("Location: ?pagina=painel");
+						}
+						/* Se o usuario ou a senha não batem alertamos o usuario */
+						else{
+							echo "<script>alert('Usuário e/ou senha inválido(s), Tente novamente!');</script>";
+						}
+					}
+				}
+			?>
+		</div>
   </body>
 </html>

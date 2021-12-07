@@ -4,6 +4,6 @@ class UsuarioModel
 {
     public function UsuarioLogado()
     {
-        return "Inaldo Monteiro";
+        return "Administrador";
     }
 }
