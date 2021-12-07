@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+<?php 
+
+require "controller/Controller.php";
+
+$ctrl = new Controller();
+
+$ctrl->Index();
+
+
+
+
+/* <!-- <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -21,4 +32,4 @@
 
 
 </body>
-</html>
+</html> --> */
