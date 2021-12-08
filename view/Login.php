@@ -24,7 +24,7 @@
 			<!-- Aqui temos o formulário
 				*Action é vazia por que vamos fazer a validação e o redirecionamento nesta mesma página.
 			-->
-			<form name="" method="post" action="">
+			<!-- <form name="" method="post" action="">
       <h1 class="h3 mb-3 font-weight-normal">Preencha os dados corretamente:</h1>
       <label for="inputEmail" class="sr-only">Usuário</label>
       <input type="text" name="user" id="inputEmail" class="form-control" placeholder="Usuário" required autofocus>
@@ -35,7 +35,7 @@
       </div>
 
 			<input class="btn btn-lg btn-primary btn-block" type="submit" name="submit" value="Logar!" />
-			</form>
+			</form> -->
 			<?php
 				/* Declaração de Variáveis */
 				$user = @$_REQUEST['user'];
@@ -72,5 +72,30 @@
 				}
 			?>
 		</div>
+
+		<div class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-lg-7 text-center text-lg-start">
+        <h1 class="display-4 fw-bold lh-1 mb-3">Sistema de Avaliação do Desevolvedor</h1>
+        <p class="col-lg-10 fs-4">Importe as suas vendas para ver suas receitas.</p>
+      </div>
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-light" form name="" method="post" action="">
+          <div class="form-floating mb-3">
+            <input type="text" name="user" id="inputEmail" class="form-control" placeholder="Usuário" required autofocus>
+            <label for="floatingInput">Usuário</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" name="pass" id="inputPassword" class="form-control" placeholder="Password" required>
+            <label for="floatingPassword">Password</label>
+          </div>
+          <input class="w-100 btn btn-lg btn-primary" type="submit" name="submit" value="Acessar!" />
+         
+          <hr class="my-4">
+          <p>Desenvolvido por <a href="https://www.inaldomonteiro.com.br/">Inaldo Monteiro</a></a>.</p>
+        </form>
+      </div>
+    </div>
+  </div>
   </body>
 </html>

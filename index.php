@@ -9,7 +9,7 @@ $ctrl = new HomeController();
 switch($pagina) {
     
     case "index" : 
-    $ctrl->Index();
+    $ctrl->Login();
     break;
     case "login" : 
     $ctrl->Login();
