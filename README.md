@@ -1,3 +1,19 @@
+# Desenvolvedor Web PHP - Inaldo Monteiro - inaldomonteiroti@gmail.com
+# Documetação - Desenvovedores
+
+Tecnologias Utilizadas: HTML, PHP, CSS, MySQL, Bootstrap.
+
+Esta aplicação foi desenvolvida , seguindo o padrão MVC.
+
+No diretório raiz da aplicação existe um arquivo de conexão (conexao.php) onde devem ser configurados os dados de conexão conforme a utilização.
+
+Antes de utilizar a aplicação, você deve criar o banco de dados em seu MySQL. Podendo se utilizar de um arquivo na raiz desse projeto (vendas.sql)
+
+# Um breve resumo de como está organizado esta aplicação.
+
+Ao entrar na aplicação o arquivo chamado é o index.php. Dentro desse arquivo existe um swich que indentifica a pagina de navegação do projeto. Funciona como se fosse um arquivo de rotas, caso estivessemos usando um framework. Identificado a pagina é chamado uma função que retorna a pagina preferida. Esses Métodos estão dentro da Controller. Após o fluxo chegar no Controoler (controller/HomeController.php) é chamado as views.
+
+......................................................................................................................................
 # Desafio Desenvolvedor Web PHP
 A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de Desenvolvedor Web, de vários níveis.
 
