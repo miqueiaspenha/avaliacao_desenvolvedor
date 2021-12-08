@@ -8,12 +8,18 @@ class HomeController
     {
         include "view/Index.php";
     }
-
     public function Login()
     {
         include "view/Login.php";
     }
-
+    public function Listar()
+    {
+        include "view/Listar.php";
+    }
+    public function Confirmar()
+    {
+        include "view/Confirmar.php";
+    }
     public function Painel()
     {
         $model = new UsuarioModel();

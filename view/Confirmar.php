@@ -22,7 +22,7 @@ session_start();
         <a href="index.php?pagina=painel" type="button" class="btn btn-primary">INCLUIR ARQUIVO</a>
         </div>
         <div class="col-6" style="padding-right: 25%;">
-        <button href="" type="button" class="btn btn-success">MOSTRAR DADOS</button>
+        <a href="index.php?pagina=listar" type="button" class="btn btn-success">MOSTRAR DADOS</a>
         </div>
       </div>	
 	</body>

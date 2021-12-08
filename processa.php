@@ -30,7 +30,7 @@ foreach($dados as $linha){
 	$resultado_usuario = mysqli_query($conn, $result_usuario);	
 }
 $_SESSION['msg'] = "<p style='color: green;'>Carregado os dados com sucesso!</p>";
-header("Location: index2.php");
+header("Location: index.php?pagina=confirmar");
 
 
 

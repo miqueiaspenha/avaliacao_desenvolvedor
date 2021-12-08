@@ -7,6 +7,7 @@ $pagina = isset($_GET["pagina"]) ? $_GET["pagina"] : "index";
 $ctrl = new HomeController();
 
 switch($pagina) {
+    
     case "index" : 
     $ctrl->Index();
     break;
@@ -14,6 +15,12 @@ switch($pagina) {
     $ctrl->Login();
     break;
     case "painel" : 
-    $ctrl->Painel();
+    $ctrl->Painel();    
     break;
+    case "listar" : 
+    $ctrl->Listar();
+    break;
+    case "confirmar" : 
+        $ctrl->Confirmar();
+        break;
 }
