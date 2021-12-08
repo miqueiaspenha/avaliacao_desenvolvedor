@@ -78,6 +78,7 @@
         <h1 class="display-4 fw-bold lh-1 mb-3">Sistema de Avaliação do Desevolvedor</h1>
         <p class="col-lg-10 fs-4">Importe as suas vendas para ver suas receitas.</p>
         <p class="col-lg-10 fs-4">(OBS: usuario: sad senha: sad)</p>
+        <p class="col-lg-10 fs-4">(Download de arquivo txt)</p>
       </div>
       <div class="col-md-10 mx-auto col-lg-5">
         <form class="p-4 p-md-5 border rounded-3 bg-light" form name="" method="post" action="">
