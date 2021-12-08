@@ -66,9 +66,9 @@ echo '</div>';
 				<th scope='col'> Receitas </th>
 				<th scope='col'>
 					<div id="qtdtotal">
-					</div>
+					
 				</th>
-				<th scope='col'></th>
+				<th scope='col'></div></th>
 				<th scope='col'></th>
 				<th scope='col'></th>
 				<th scope='col'></th>
@@ -88,7 +88,8 @@ echo '</div>';
 			$(".valor-calculado").each(function () {
 				valorCalculado += parseInt($(this).text());
 			});
-			$("#qtdtotal").text(valorCalculado);
+			$("#qtdtotal").text("R$ "+ valorCalculado );
+			
 
 		});
 	</script>
